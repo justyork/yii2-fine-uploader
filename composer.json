@@ -1,0 +1,22 @@
+{
+    "name": "justyork/yii2-fine-uploader",
+    "description": "Image uploader for Yii2 framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","fine-uploader","gallery"],
+    "license": "BSD-4-Clause",
+    "authors": [
+        {
+            "name": "York",
+            "email": "yorkshp@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "modernkernel/yii2-fineuploader": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "justyork\\fineuploader\\": "src"
+        }
+    }
+}
