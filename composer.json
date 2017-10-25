@@ -12,7 +12,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "modernkernel/yii2-fineuploader": "*"
+        "modernkernel/yii2-fineuploader": "*",
+        "justyork/yii2-fine-uploader": "dev-master"
     },
     "autoload": {
         "psr-4": {
