@@ -146,11 +146,10 @@ class Fineuploader extends \modernkernel\fineuploader\Fineuploader
                 <button type="button" class="qq-ok-button-selector">{$this->okLabel}</button>
             </div>
         </dialog>
+        <div class="clearfix"></div>
     </div>
 </script>
 EOB;
 
     }
-
-
 } 
