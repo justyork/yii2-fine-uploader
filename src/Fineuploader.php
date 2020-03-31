@@ -74,6 +74,8 @@ class Fineuploader extends \modernkernel\fineuploader\Fineuploader
         'uploadChunkSuccess' => '',
         'validate' => '',
         'validateBatch' => '',
+        'rotateLeft' => '',
+        'rotateRight' => '',
     ];
 
 
@@ -116,9 +118,11 @@ class Fineuploader extends \modernkernel\fineuploader\Fineuploader
                 <span class="qq-edit-filename-icon-selector qq-edit-filename-icon" aria-label="{$this->editFilenameLabel}"></span>
                 <input class="qq-edit-filename-selector qq-edit-filename" tabindex="0" type="text">
                 <span class="qq-upload-size-selector qq-upload-size"></span>
-                <button type="button" class="qq-btn qq-upload-cancel-selector qq-upload-cancel">{$this->cancelLabel}</button>
-                <button type="button" class="qq-btn qq-upload-retry-selector qq-upload-retry">{$this->retryLabel}</button>
-                <button type="button" class="qq-btn qq-upload-delete-selector qq-upload-delete">{$this->deleteLabel}</button>
+                <button type="button" class="qq-link qq-rotate-left ion-ios-undo-outline" title="Rotate left 90"></button>
+                <button type="button" class="qq-link qq-rotate-right ion-ios-redo-outline" title="Rotate right 90"></button>
+                <button type="button" class="qq-link qq-btn qq-upload-cancel-selector ion-ios-close-empty" title="{$this->cancelLabel}"></button>
+                <button type="button" class="qq-link qq-btn qq-upload-retry-selector ion-ios-reload" title="{$this->retryLabel}"></button>
+                <button type="button" class="qq-link qq-btn qq-upload-delete-selector ion-ios-trash-outline" title="{$this->deleteLabel}"></button>
                 <span role="status" class="qq-upload-status-text-selector qq-upload-status-text"></span>
             </li>
         </ul>
